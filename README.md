@@ -23,27 +23,27 @@ Please install
 
 https://services.github.com/on-demand/images/gifs/github-desktop/opening-a-pr.gif
 
-On GitHub Desktop, click the button to sync changes. This button changes states based on the changes that have been made in your local repository and on the remote. If no other changes have been made, it will read Publish Branch.
+* On GitHub Desktop, click the button to sync changes. This button changes states based on the changes that have been made in your local repository and on the remote. If no other changes have been made, it will read Publish Branch.
 ```
 En GitHub Desktop, haga clic en el botón para sincronizar los cambios. Este botón cambia los estados según los cambios que se hayan realizado en su repositorio local y en el control remoto. Si no se han realizado otros cambios, se leerá Publish Branch.
 ```
 
-In your browser, go to the ‘Pull Requests’ tab of the class repository.
+* In your browser, go to the ‘Pull Requests’ tab of the class repository.
 ```
 En su navegador, vaya a la pestaña 'Pull Request' del repositorio de clases.
 ```
 
-Click ‘New pull request’.
+* Click ‘New pull request’.
 ```
 Haga clic en 'New Pull Request'.
 ```
 
-Ensure the base branch (the one on the left) is master and that the compare branch (the one on the right) is the one you created on GitHub Desktop.
+* Ensure the base branch (the one on the left) is master and that the compare branch (the one on the right) is the one you created on GitHub Desktop.
 ```
 Asegúrese de que la rama base (la de la izquierda) sea maestra y que la rama comparar (la de la derecha) sea la que creó en GitHub Desktop.
 ```
 
-Complete the fields of the pull request.
+* Complete the fields of the pull request.
 ```
 Complete los campos del pull request.
 ```
