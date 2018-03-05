@@ -15,11 +15,11 @@ Welcome to Project1
 
 Please install
 
-```
-* [GitHub Desktop](https://desktop.github.com/) - GitHub workflow
-```
 
-### Pull Request
+* [GitHub Desktop](https://desktop.github.com/) - GitHub workflow
+
+
+### Como hacer un Pull Request
 
 https://services.github.com/on-demand/images/gifs/github-desktop/opening-a-pr.gif
 
