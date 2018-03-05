@@ -1,6 +1,8 @@
 # Project1
 
-Welcome to Project1
+Welcome to Project1.
+
+Dont forget. Comment, Comment, makes perfect!
 
 ## Getting Started
 
@@ -51,4 +53,4 @@ Complete los campos del pull request.
 
 ## Built With
 
-* [PHP](http://php.net/) - The web framework used
+* [PHP](http://php.net/) - The #1 web framework
