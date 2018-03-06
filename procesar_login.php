@@ -9,7 +9,17 @@
 		$contra= $_POST['contrasena'];
 
 		/*Validacion para que el usuario y/o contraseña no vengan vacios*/
-		if((isset($_POST['usuario'])) && (isset($_POST['contrasena'])) )
+		if(empty($nombre))
+		{
+			header("location: login.php");
+			return;
+		}
+		else if(empty($contra))
+		{
+			header("location: login.php");
+			return;
+		}
+		else
 		{
 			/*Query de la consulta para el login*/
 			$query="Select usuario,contrasena FROM usuario where usuario='$nombre' and contrasena='$contra'" ;
@@ -33,14 +43,8 @@
 			/*Si la consulta trajo 0 datos, entonces genero el error*/
 			else
 			{
-
 				 echo '<div class="error">Su usuario es incorrecto, intente nuevamente.</div>';
 			}
-		}
-		else
-		{
-			/*Redirijo a login.php*/
-			header("location: login.php");
 		}
 	}
 	else
