@@ -11,17 +11,14 @@
 		/*Validacion para que el usuario y/o contraseña no vengan vacios*/
 		if(empty($_POST['usuario']))
 		{
-			header("location: login.php");
-			return;
+			echo "<script> alert('¡El campo usuario y/o contraseña están vacios!');window.location= 'login.php' </script>";
 		}
 		else if(empty($_POST['contrasena']))
 		{
-			header("location: login.php");
-			return;
+			echo "<script> alert('¡El campo usuario y/o contraseña están vacios!');window.location= 'login.php' </script>";
 		}
 		else
 		{
-			echo "<script>alert('Entra');</script>";
 			/*Query de la consulta para el login*/
 			$query="Select * FROM usuario where usuario='$nombre'" ;
 			$stmt = $conexion->prepare($query);
@@ -30,8 +27,6 @@
 			/*Si la consulta trajo los datos, paso a la siguiente pagina*/
 			if($stmt->rowCount()>0)
 			{
-				echo "<script>alert('Entra');</script>";
-
 				/*Se genera la variable de sesion*/
 				$dataUsuario = $stmt->fetch(PDO::FETCH_ASSOC);
 
@@ -45,21 +40,18 @@
 				}
 				else
 				{
-					echo "<script>alert('Mal');</script>";
-					header("location: login.php");
+					echo "<script> alert('¡Las contraseñas no son identicas!');window.location= 'login.php' </script>";
 				}
 			}
 			/*Si la consulta trajo 0 datos, entonces genero el error*/
 			else
 			{
-				echo "<script>alert('Mal 2');</script>";
-				echo '<div class="error">Su usuario es incorrecto, intente nuevamente.</div>';
+				echo "<script> alert('¡El usuario no existe, verifique la información!');window.location= 'login.php' </script>";
 			}
 		}
 	}
 	else
-	{	echo "<script>alert('Mal 3');</script>";
-		/*Redirijo a login.php*/
+	{
 		header("location: login.php");
 	}
 ?>
