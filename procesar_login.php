@@ -11,11 +11,11 @@
 		/*Validacion para que el usuario y/o contraseña no vengan vacios*/
 		if(empty($_POST['usuario']))
 		{
-			echo "<script> alert('¡El campo usuario y/o contraseña están vacios!');window.location= 'login.php' </script>";
+			echo "<script> alert('¡El campo usuario y/o contraseña están vacios!');window.location= 'index.php' </script>";
 		}
 		else if(empty($_POST['contrasena']))
 		{
-			echo "<script> alert('¡El campo usuario y/o contraseña están vacios!');window.location= 'login.php' </script>";
+			echo "<script> alert('¡El campo usuario y/o contraseña están vacios!');window.location= 'index.php' </script>";
 		}
 		else
 		{
@@ -40,18 +40,18 @@
 				}
 				else
 				{
-					echo "<script> alert('¡Las contraseñas no son identicas!');window.location= 'login.php' </script>";
+					echo "<script> alert('¡Las contraseñas no son identicas!');window.location= 'index.php' </script>";
 				}
 			}
 			/*Si la consulta trajo 0 datos, entonces genero el error*/
 			else
 			{
-				echo "<script> alert('¡El usuario no existe, verifique la información!');window.location= 'login.php' </script>";
+				echo "<script> alert('¡El usuario no existe, verifique la información!');window.location= 'index.php' </script>";
 			}
 		}
 	}
 	else
 	{
-		header("location: login.php");
+		header("location: index.php");
 	}
 ?>

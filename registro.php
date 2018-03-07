@@ -52,7 +52,7 @@
 				<!--Boton para inicio de sesion-->
 				<button type="submit" name="registrarse" class="button_aceptar" >Registrarse</button>
 				<!--Boton para cancelar el registro y volver a inicio de sesion-->
-				<button type="button" onclick="location.href='login.php'" class="button_cancelar" >Cancelar</button>
+				<button type="button" onclick="location.href='index.php'" class="button_cancelar" >Cancelar</button>
 			</div>
 		</form>
 	</body>

@@ -73,7 +73,7 @@ if (isset($_POST['registrarse']))
 			try
 			{
 				/*Query para averiguar si el correo ya existe, si existe lanza mensaje de error*/
-				$querycorreo="SELECT * FROM persona where email='$correo_cifrado'";
+				$querycorreo="SELECT * FROM usuario where email='$correo_cifrado'";
 				$stmtcorreo = $conexion->query($querycorreo);
 				$stmtcorreo->execute();
 				if ($stmtcorreo->rowCount()>0)
@@ -83,40 +83,29 @@ if (isset($_POST['registrarse']))
 				}
 				else
 				{
-				/*Primero hago el insert en la tabla persona de los datos del usuario*/
-				$query="INSERT INTO persona (nombre, apellidos, email) VALUES (:nombre, :apellidos, :email)";
-				$nuevoPersona = $conexion -> prepare($query);
-				$nuevoPersona -> bindParam(':nombre'   , $nombre_cifrado, PDO::PARAM_STR);
-				$nuevoPersona -> bindParam(':apellidos', $apellido_cifrado, PDO::PARAM_STR);
-				$nuevoPersona -> bindParam(':email', $correo_cifrado, PDO::PARAM_STR);
-				$stmt= $nuevoPersona -> execute();
+				/*Realizo el insert de los datos del usuario en la BD*/
 
-				/*Una vez que guardo los datos del usuario en la tabla persona, hago otro insert pero en la tabla usuario
-				donde guardo el nombre de usuario y la contraseña, junto con el privilegio. Ademas dentro del insert hago
-				una consulta donde obtengo el id de la persona de acuerdo al nombre que ingrese anteriormente, esto porque
-				hay una llave foranea*/
-
-				$query="INSERT INTO usuario (usuario, contrasena, privilegio, id_persona)
-				VALUES (:usuario, :contrasena, :privilegio, (Select id from persona where nombre= :nombre))";
+				$query="INSERT INTO usuario (usuario, contrasena, privilegio, nombre , apellidos , email)
+						VALUES (:usuario, :contrasena, :privilegio, :nombre, :apellidos, :email)";
 				$nuevoUsuario = $conexion -> prepare($query);
 				$nuevoUsuario -> bindParam(':usuario'   , $usuario, PDO::PARAM_STR);
 				$nuevoUsuario -> bindParam(':contrasena', $contrasena_cifrada, PDO::PARAM_STR);
 				$nuevoUsuario -> bindParam(':privilegio', $privilegio, PDO::PARAM_STR);
-				$nuevoUsuario -> bindParam(':nombre',     $nombre_cifrado, PDO::PARAM_STR);
+				$nuevoUsuario -> bindParam(':nombre'   , $nombre_cifrado, PDO::PARAM_STR);
+				$nuevoUsuario -> bindParam(':apellidos', $apellido_cifrado, PDO::PARAM_STR);
+				$nuevoUsuario -> bindParam(':email', $correo_cifrado, PDO::PARAM_STR);
 				$stmt1= $nuevoUsuario -> execute();
 				}
 			}
 			catch (PDOException $error)
 			{
-				echo "<script> alert('Error al ingresar ');window.location= 'registro.php' </script>";
+				echo "<script> alert('¡Ha ocurrido un error, intentelo mas tarde!');window.location= 'registro.php' </script>";
 				return;
 			}
 			if($stmt1)
 			{
-				echo "<script> alert('¡Se ingreso correctamente al usuario!');window.location= 'login.php' </script>";
+				echo "<script> alert('¡Se ingreso correctamente al usuario!');window.location= 'index.php' </script>";
 			}
 		}
 	 }
 }
-
-?>
