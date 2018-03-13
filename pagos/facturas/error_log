@@ -1,0 +1,552 @@
+[03-Feb-2018 15:43:57 UTC] 1764
+[03-Feb-2018 15:43:57 UTC] Factura:0001En cargos:5000 50000
+[03-Feb-2018 15:43:57 UTC] Factura:60154En cargos:5000 118000
+[03-Feb-2018 15:43:57 UTC] Factura:65487En cargos:5000 216745
+[03-Feb-2018 15:48:38 UTC] 1764
+[03-Feb-2018 15:48:38 UTC] Factura:0001En cargos:55000 50000
+[03-Feb-2018 15:48:38 UTC] Factura:60154En cargos:123000 118000
+[03-Feb-2018 15:48:38 UTC] Factura:65487En cargos:221745 216745
+[03-Feb-2018 15:54:21 UTC] 1764
+[03-Feb-2018 15:54:21 UTC] Factura:0001En cargos:55000 50000
+[03-Feb-2018 15:54:21 UTC] Factura:60154En cargos:123000 118000
+[03-Feb-2018 15:54:21 UTC] Factura:65487En cargos:221745 216745
+[03-Feb-2018 15:54:24 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Ref] => lol
+    [operation] => Pago
+)
+
+[03-Feb-2018 15:54:24 UTC] bien
+[03-Feb-2018 15:54:27 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Ref] => lol
+    [operation] => Pago
+)
+
+[03-Feb-2018 15:54:27 UTC] bien
+[03-Feb-2018 15:58:14 UTC] 1764
+[03-Feb-2018 15:58:14 UTC] Factura:0001En cargos:55000 50000
+[03-Feb-2018 15:58:14 UTC] Factura:60154En cargos:123000 118000
+[03-Feb-2018 15:58:14 UTC] Factura:65487En cargos:221745 216745
+[03-Feb-2018 15:58:26 UTC] 1764
+[03-Feb-2018 15:58:26 UTC] Factura:0001En cargos:55000 50000
+[03-Feb-2018 15:58:26 UTC] Factura:60154En cargos:123000 118000
+[03-Feb-2018 15:58:26 UTC] Factura:65487En cargos:221745 216745
+[03-Feb-2018 15:58:28 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Ref] => lol
+    [operation] => Pago
+)
+
+[03-Feb-2018 15:58:28 UTC] bien
+[03-Feb-2018 15:58:31 UTC] 1763
+[03-Feb-2018 15:58:33 UTC] 1764
+[03-Feb-2018 15:58:33 UTC] Factura:0001En cargos:55000 50000
+[03-Feb-2018 15:58:33 UTC] Factura:60154En cargos:123000 118000
+[03-Feb-2018 15:58:33 UTC] Factura:65487En cargos:221745 216745
+[03-Feb-2018 15:59:47 UTC] 1764
+[03-Feb-2018 15:59:47 UTC] Factura:0001En cargos:55000 50000
+[03-Feb-2018 15:59:47 UTC] Factura:60154En cargos:123000 118000
+[03-Feb-2018 15:59:47 UTC] Factura:65487En cargos:221745 216745
+[03-Feb-2018 15:59:48 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Ref] => lol
+    [operation] => Pago
+)
+
+[03-Feb-2018 15:59:48 UTC] bien
+[03-Feb-2018 16:33:47 UTC] 1764
+[03-Feb-2018 16:33:47 UTC] Factura:0001En cargos:55000 55000
+[03-Feb-2018 16:33:47 UTC] Factura:60154En cargos:123000 123000
+[03-Feb-2018 16:33:47 UTC] Factura:65487En cargos:221745 221745
+[03-Feb-2018 16:42:14 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Tipo] => Nota de Debito
+    [Monto] => 10000
+    [Ref] => Ret
+    [Nota] => add
+    [operation] => Add
+)
+
+[03-Feb-2018 16:42:19 UTC] 1763
+[03-Feb-2018 16:42:21 UTC] 1764
+[03-Feb-2018 16:42:21 UTC] Factura:0001En cargos:65000 55000
+[03-Feb-2018 16:42:21 UTC] Factura:60154En cargos:133000 123000
+[03-Feb-2018 16:42:21 UTC] Factura:65487En cargos:231745 221745
+[03-Feb-2018 16:42:29 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Ref] => lol
+    [operation] => Pago
+)
+
+[03-Feb-2018 16:42:29 UTC] bien
+[03-Feb-2018 16:42:31 UTC] 1763
+[03-Feb-2018 16:42:32 UTC] 1764
+[03-Feb-2018 16:42:32 UTC] Factura:0001En cargos:65000 65000
+[03-Feb-2018 16:42:32 UTC] Factura:60154En cargos:133000 133000
+[03-Feb-2018 16:42:32 UTC] Factura:65487En cargos:231745 231745
+[03-Feb-2018 17:43:53 UTC] 1877
+[03-Feb-2018 17:44:00 UTC] 1764
+[03-Feb-2018 17:44:00 UTC] Factura:0001En cargos:65000 65000
+[03-Feb-2018 17:44:00 UTC] Factura:60154En cargos:133000 133000
+[03-Feb-2018 17:44:00 UTC] Factura:65487En cargos:231745 231745
+[03-Feb-2018 17:45:52 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Tipo] => Nota de Debito
+    [Monto] => 10000
+    [Ref] => Mal facturada precio agencia
+    [Nota] => Hecha por maria
+    [operation] => Add
+)
+
+[03-Feb-2018 17:46:02 UTC] 1763
+[03-Feb-2018 17:46:03 UTC] 1764
+[03-Feb-2018 17:46:03 UTC] Factura:0001En cargos:75000 65000
+[03-Feb-2018 17:46:03 UTC] Factura:60154En cargos:143000 133000
+[03-Feb-2018 17:46:03 UTC] Factura:65487En cargos:241745 231745
+[03-Feb-2018 17:46:18 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Ref] => lol
+    [operation] => Pago
+)
+
+[03-Feb-2018 17:46:18 UTC] bien
+[03-Feb-2018 17:46:23 UTC] 1763
+[03-Feb-2018 17:46:25 UTC] 1764
+[03-Feb-2018 17:46:25 UTC] Factura:0001En cargos:75000 75000
+[03-Feb-2018 17:46:25 UTC] Factura:60154En cargos:143000 143000
+[03-Feb-2018 17:46:25 UTC] Factura:65487En cargos:241745 241745
+[03-Feb-2018 17:50:19 UTC] 1764
+[03-Feb-2018 17:50:19 UTC] Factura:0001En cargos:75000 75000
+[03-Feb-2018 17:50:19 UTC] Factura:60154En cargos:143000 143000
+[03-Feb-2018 17:50:19 UTC] Factura:65487En cargos:241745 241745
+[03-Feb-2018 17:50:57 UTC] 1764
+[03-Feb-2018 17:50:57 UTC] Factura:0001En cargos:75000 75000
+[03-Feb-2018 17:50:57 UTC] Factura:60154En cargos:143000 143000
+[03-Feb-2018 17:50:57 UTC] Factura:65487En cargos:241745 241745
+[07-Feb-2018 21:36:29 UTC] 1764
+[07-Feb-2018 21:36:29 UTC] Factura:0001En cargos:75000 75000
+[07-Feb-2018 21:36:29 UTC] Factura:60154En cargos:143000 143000
+[07-Feb-2018 21:36:29 UTC] Factura:65487En cargos:241745 241745
+[07-Feb-2018 21:37:01 UTC] 1763
+[07-Feb-2018 21:37:03 UTC] 1764
+[07-Feb-2018 21:37:03 UTC] Factura:0001En cargos:50000 0
+[07-Feb-2018 21:37:03 UTC] Factura:60154En cargos:118000 0
+[07-Feb-2018 21:37:03 UTC] Factura:65487En cargos:216745 0
+[07-Feb-2018 21:59:15 UTC] 1763
+[07-Feb-2018 21:59:24 UTC] 1764
+[07-Feb-2018 21:59:24 UTC] Factura:0001En cargos:50000 0
+[07-Feb-2018 21:59:24 UTC] Factura:60154En cargos:118000 0
+[07-Feb-2018 21:59:24 UTC] Factura:65487En cargos:216745 0
+[07-Feb-2018 21:59:50 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 613
+    [Ref] => lol
+    [operation] => Pago
+)
+
+[07-Feb-2018 21:59:50 UTC] bien
+[07-Feb-2018 22:00:40 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Tipo] => Nota de Debito
+    [Monto] => 5000
+    [Ref] => UT354
+    [Nota] => Mora
+    [operation] => Add
+)
+
+[07-Feb-2018 22:00:46 UTC] 1763
+[07-Feb-2018 22:00:47 UTC] 1764
+[07-Feb-2018 22:00:47 UTC] Factura:0001En cargos:55000 0
+[07-Feb-2018 22:00:47 UTC] Factura:60154En cargos:123000 0
+[07-Feb-2018 22:00:47 UTC] Factura:65487En cargos:221745 98745
+[07-Feb-2018 22:01:02 UTC] 1764
+[07-Feb-2018 22:01:02 UTC] Factura:0001En cargos:55000 0
+[07-Feb-2018 22:01:02 UTC] Factura:60154En cargos:123000 0
+[07-Feb-2018 22:01:02 UTC] Factura:65487En cargos:221745 98745
+[07-Feb-2018 22:01:12 UTC] 1764
+[07-Feb-2018 22:01:12 UTC] Factura:0001En cargos:55000 0
+[07-Feb-2018 22:01:12 UTC] Factura:60154En cargos:123000 0
+[07-Feb-2018 22:01:12 UTC] Factura:65487En cargos:221745 98745
+[07-Feb-2018 22:01:15 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 612
+    [Ref] => lol
+    [operation] => Pago
+)
+
+[07-Feb-2018 22:01:15 UTC] bien
+[07-Feb-2018 22:01:19 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 611
+    [Ref] => lol
+    [operation] => Pago
+)
+
+[07-Feb-2018 22:01:19 UTC] bien
+[07-Feb-2018 22:01:23 UTC] 1763
+[07-Feb-2018 22:01:25 UTC] 1764
+[07-Feb-2018 22:01:25 UTC] Factura:0001En cargos:55000 55000
+[07-Feb-2018 22:01:25 UTC] Factura:60154En cargos:123000 123000
+[07-Feb-2018 22:01:25 UTC] Factura:65487En cargos:221745 221745
+[08-Feb-2018 00:51:35 UTC] 1764
+[08-Feb-2018 00:51:35 UTC] Factura:0001En cargos:55000 55000
+[08-Feb-2018 00:51:35 UTC] Factura:60154En cargos:123000 123000
+[08-Feb-2018 00:51:35 UTC] Factura:65487En cargos:221745 221745
+[08-Feb-2018 00:55:05 UTC] 1764
+[08-Feb-2018 00:55:05 UTC] Factura:0001En cargos:55000 55000
+[08-Feb-2018 00:55:05 UTC] Factura:60154En cargos:123000 123000
+[08-Feb-2018 00:55:05 UTC] Factura:65487En cargos:221745 221745
+[08-Feb-2018 00:55:18 UTC] 1764
+[08-Feb-2018 00:55:18 UTC] Factura:0001En cargos:55000 55000
+[08-Feb-2018 00:55:18 UTC] Factura:60154En cargos:123000 123000
+[08-Feb-2018 00:55:18 UTC] Factura:65487En cargos:221745 221745
+[08-Feb-2018 01:02:52 UTC] 1764
+[08-Feb-2018 01:02:52 UTC] Factura:0001En cargos:55000 55000
+[08-Feb-2018 01:02:52 UTC] Factura:60154En cargos:123000 123000
+[08-Feb-2018 01:02:52 UTC] Factura:65487En cargos:221745 221745
+[08-Feb-2018 01:03:48 UTC] 1764
+[08-Feb-2018 01:03:48 UTC] Factura:0001En cargos:55000 55000
+[08-Feb-2018 01:03:48 UTC] Factura:60154En cargos:123000 123000
+[08-Feb-2018 01:03:48 UTC] Factura:65487En cargos:221745 221745
+[08-Feb-2018 01:11:40 UTC] 1764
+[08-Feb-2018 01:11:40 UTC] Factura:0001En cargos:55000 55000
+[08-Feb-2018 01:11:40 UTC] Factura:60154En cargos:123000 123000
+[08-Feb-2018 01:11:40 UTC] Factura:65487En cargos:221745 221745
+[08-Feb-2018 01:14:55 UTC] 1764
+[08-Feb-2018 01:14:55 UTC] Factura:0001En cargos:55000 55000
+[08-Feb-2018 01:14:55 UTC] Factura:60154En cargos:123000 123000
+[08-Feb-2018 01:14:55 UTC] Factura:65487En cargos:221745 221745
+[08-Feb-2018 01:15:29 UTC] Array
+(
+    [idcliente] => 1764
+    [idfactura] => 612
+    [Tipo] => Nota de Debito
+    [Monto] => 5000
+    [Ref] => jhon
+    [Nota] => x<d
+    [operation] => Add
+)
+
+[13-Feb-2018 17:50:48 UTC] 13714
+[13-Feb-2018 17:50:50 UTC] 13966
+[13-Feb-2018 17:50:50 UTC] Factura:0001En cargos:55000 55000
+[13-Feb-2018 17:50:50 UTC] Factura:60154En cargos:128000 123000
+[13-Feb-2018 17:50:50 UTC] Factura:65487En cargos:226745 221745
+[13-Feb-2018 20:36:33 UTC] 13714
+[13-Feb-2018 20:36:33 UTC] Factura:200186401En cargos:0 0
+[13-Feb-2018 20:36:33 UTC] Factura:20019220En cargos:0 0
+[13-Feb-2018 20:36:33 UTC] Factura:200196101En cargos:0 0
+[13-Feb-2018 20:36:40 UTC] 13966
+[13-Feb-2018 20:36:40 UTC] Factura:0001En cargos:55000 55000
+[13-Feb-2018 20:36:40 UTC] Factura:60154En cargos:128000 123000
+[13-Feb-2018 20:36:40 UTC] Factura:65487En cargos:226745 221745
+[13-Feb-2018 20:36:40 UTC] Factura:300314171En cargos:226745 221745
+[13-Feb-2018 20:36:50 UTC] 1141
+[13-Feb-2018 20:36:53 UTC] 10590
+[13-Feb-2018 20:36:53 UTC] Factura:33185900En cargos:0 0
+[13-Feb-2018 20:36:53 UTC] Factura:33188100En cargos:0 0
+[13-Feb-2018 20:36:53 UTC] Factura:32802800En cargos:0 0
+[13-Feb-2018 20:36:53 UTC] Factura:329556000En cargos:0 0
+[13-Feb-2018 20:36:53 UTC] Factura:331262000En cargos:0 0
+[13-Feb-2018 20:36:53 UTC] Factura:33539800En cargos:0 0
+[13-Feb-2018 20:38:47 UTC] 31
+[13-Feb-2018 20:38:47 UTC] Factura:300188901En cargos:610214 0
+[13-Feb-2018 20:38:47 UTC] Factura:30019801En cargos:1277006 0
+[13-Feb-2018 20:38:47 UTC] Factura:300110000En cargos:1744809 0
+[13-Feb-2018 20:38:53 UTC] 13966
+[13-Feb-2018 20:38:53 UTC] Factura:0001En cargos:95000 55000
+[13-Feb-2018 20:38:53 UTC] Factura:60154En cargos:150000 123000
+[13-Feb-2018 20:38:53 UTC] Factura:65487En cargos:180000 221745
+[13-Feb-2018 20:38:53 UTC] Factura:300314171En cargos:1676196 221745
+[13-Feb-2018 20:38:54 UTC] 13714
+[13-Feb-2018 20:38:54 UTC] Factura:200186401En cargos:1239950 0
+[13-Feb-2018 20:38:54 UTC] Factura:20019220En cargos:3670450 0
+[13-Feb-2018 20:38:54 UTC] Factura:200196101En cargos:4885700 0
+[13-Feb-2018 20:39:32 UTC] 4315
+[13-Feb-2018 20:39:37 UTC] 4622
+[13-Feb-2018 20:39:37 UTC] Factura:991400En cargos:214510 0
+[13-Feb-2018 20:39:37 UTC] Factura:987820En cargos:312151 0
+[13-Feb-2018 20:39:37 UTC] Factura:1019790En cargos:473878 0
+[13-Feb-2018 20:39:37 UTC] Factura:0En cargos:524957 0
+[13-Feb-2018 20:39:37 UTC] Factura:1039150En cargos:732741 0
+[13-Feb-2018 20:39:37 UTC] Factura:1048660En cargos:905944 0
+[13-Feb-2018 20:39:37 UTC] Factura:1094730En cargos:984904 0
+[13-Feb-2018 20:39:37 UTC] Factura:1103420En cargos:1239066 0
+[13-Feb-2018 20:39:37 UTC] Factura:11053600En cargos:1830647 0
+[13-Feb-2018 20:39:37 UTC] Factura:1141180En cargos:2472375 0
+[13-Feb-2018 20:39:37 UTC] Factura:1169760En cargos:2639827 0
+[13-Feb-2018 20:39:37 UTC] Factura:1210640En cargos:3208358 0
+[13-Feb-2018 20:39:37 UTC] Factura:1215440En cargos:3442412 0
+[13-Feb-2018 20:39:37 UTC] Factura:1236230En cargos:3594161 0
+[13-Feb-2018 20:39:37 UTC] Factura:1253690En cargos:4178433 0
+[13-Feb-2018 20:39:37 UTC] Factura:1265080En cargos:4413018 0
+[13-Feb-2018 20:39:37 UTC] Factura:1273450En cargos:4654795 0
+[13-Feb-2018 20:39:37 UTC] Factura:13128400En cargos:4825189 0
+[13-Feb-2018 20:39:37 UTC] Factura:1304800En cargos:5006610 0
+[13-Feb-2018 20:39:37 UTC] Factura:1317770En cargos:5106611 0
+[13-Feb-2018 20:39:37 UTC] Factura:1435920En cargos:5359545 0
+[13-Feb-2018 20:39:37 UTC] Factura:1452080En cargos:5525059 0
+[13-Feb-2018 20:39:37 UTC] Factura:149558En cargos:5625059 0
+[13-Feb-2018 20:39:37 UTC] Factura:873742En cargos:5785737 0
+[13-Feb-2018 20:39:37 UTC] Factura:927684En cargos:5850035 0
+[13-Feb-2018 20:39:37 UTC] Factura:9161900En cargos:5895191 0
+[13-Feb-2018 20:39:37 UTC] Factura:9160500En cargos:5965421 0
+[13-Feb-2018 20:39:37 UTC] Factura:915998En cargos:6035271 0
+[13-Feb-2018 20:39:37 UTC] Factura:25458En cargos:6078299 0
+[13-Feb-2018 20:39:37 UTC] Factura:4514400En cargos:6214395 0
+[13-Feb-2018 20:39:37 UTC] Factura:77532001En cargos:6346527 0
+[13-Feb-2018 20:39:37 UTC] Factura:77527001En cargos:6422031 0
+[13-Feb-2018 20:39:37 UTC] Factura:34982000En cargos:6486209 0
+[13-Feb-2018 20:39:37 UTC] Factura:85057000En cargos:6557697 0
+[13-Feb-2018 20:39:37 UTC] Factura:885058000En cargos:6631227 0
+[13-Feb-2018 20:39:37 UTC] Factura:87409001En cargos:6974302 0
+[13-Feb-2018 20:39:37 UTC] Factura:97741000En cargos:7081757 0
+[13-Feb-2018 20:39:37 UTC] Factura:100008001En cargos:7217150 0
+[13-Feb-2018 20:39:37 UTC] Factura:100053000En cargos:7393376 0
+[13-Feb-2018 20:39:37 UTC] Factura:10179300En cargos:7437802 0
+[13-Feb-2018 20:49:08 UTC] 4518
+[13-Feb-2018 20:49:08 UTC] Factura:402013En cargos:82176 0
+[13-Feb-2018 20:49:08 UTC] Factura:592231En cargos:103674 0
+[13-Feb-2018 20:49:08 UTC] Factura:588343En cargos:218330 0
+[13-Feb-2018 20:49:08 UTC] Factura:650284En cargos:273562 0
+[13-Feb-2018 20:49:08 UTC] Factura:1168050En cargos:368599 0
+[13-Feb-2018 20:49:08 UTC] Factura:676837En cargos:459807 0
+[13-Feb-2018 20:49:08 UTC] Factura:694325En cargos:505055 0
+[13-Feb-2018 20:49:08 UTC] Factura:719005En cargos:550298 0
+[13-Feb-2018 20:49:08 UTC] Factura:752794En cargos:641054 0
+[13-Feb-2018 20:49:08 UTC] Factura:759083En cargos:749918 0
+[13-Feb-2018 20:49:08 UTC] Factura:767899En cargos:780237 0
+[13-Feb-2018 20:49:08 UTC] Factura:801469En cargos:870831 0
+[13-Feb-2018 20:49:08 UTC] Factura:808519En cargos:957111 0
+[13-Feb-2018 20:49:08 UTC] Factura:903109En cargos:1064579 0
+[13-Feb-2018 20:49:08 UTC] Factura:917052En cargos:1140654 0
+[13-Feb-2018 20:49:08 UTC] Factura:931164En cargos:1203304 0
+[13-Feb-2018 20:49:08 UTC] Factura:942132En cargos:1236211 0
+[13-Feb-2018 20:49:08 UTC] Factura:954881En cargos:1282841 0
+[13-Feb-2018 20:49:08 UTC] Factura:968973En cargos:1385427 0
+[13-Feb-2018 20:49:08 UTC] Factura:969008En cargos:1483350 0
+[13-Feb-2018 20:49:08 UTC] Factura:963963En cargos:1534643 0
+[13-Feb-2018 20:49:08 UTC] Factura:9624700En cargos:1627903 0
+[13-Feb-2018 20:49:08 UTC] Factura:969998En cargos:1672255 0
+[13-Feb-2018 20:49:08 UTC] Factura:969996En cargos:1716607 0
+[13-Feb-2018 20:49:08 UTC] Factura:9700000En cargos:1785599 0
+[13-Feb-2018 20:49:08 UTC] Factura:9841500En cargos:1811331 0
+[13-Feb-2018 20:49:08 UTC] Factura:973843En cargos:1969027 0
+[13-Feb-2018 20:49:08 UTC] Factura:981033En cargos:2038859 0
+[13-Feb-2018 20:49:08 UTC] Factura:981122En cargos:2108691 0
+[13-Feb-2018 20:49:08 UTC] Factura:9917800En cargos:2134660 0
+[13-Feb-2018 20:49:08 UTC] Factura:24740En cargos:2195284 0
+[13-Feb-2018 20:49:08 UTC] Factura:17906En cargos:2245274 0
+[13-Feb-2018 20:49:08 UTC] Factura:52284000En cargos:2292864 0
+[13-Feb-2018 20:49:08 UTC] Factura:4384000En cargos:2340454 0
+[13-Feb-2018 20:49:08 UTC] Factura:3984800En cargos:2407080 0
+[13-Feb-2018 20:49:08 UTC] Factura:3265000En cargos:2459429 0
+[13-Feb-2018 20:49:08 UTC] Factura:4105800En cargos:2564127 0
+[13-Feb-2018 20:49:08 UTC] Factura:5249700En cargos:2588657 0
+[13-Feb-2018 20:49:08 UTC] Factura:5298200En cargos:2618093 0
+[13-Feb-2018 20:49:08 UTC] Factura:3140400En cargos:2662247 0
+[13-Feb-2018 20:49:08 UTC] Factura:3140200En cargos:2721119 0
+[13-Feb-2018 20:49:08 UTC] Factura:3140600En cargos:2799615 0
+[13-Feb-2018 20:49:08 UTC] Factura:3141000En cargos:2848675 0
+[13-Feb-2018 20:49:08 UTC] Factura:3140800En cargos:2912453 0
+[13-Feb-2018 20:49:08 UTC] Factura:3140700En cargos:2941889 0
+[13-Feb-2018 20:49:08 UTC] Factura:3997700En cargos:2990949 0
+[13-Feb-2018 20:49:08 UTC] Factura:6185200En cargos:3035103 0
+[13-Feb-2018 20:49:08 UTC] Factura:71484000En cargos:3135103 0
+[13-Feb-2018 20:49:08 UTC] Factura:71483000En cargos:3180993 0
+[13-Feb-2018 20:49:08 UTC] Factura:5088800En cargos:3280993 0
+[13-Feb-2018 20:49:08 UTC] Factura:3094200En cargos:3374207 0
+[13-Feb-2018 20:49:08 UTC] Factura:56142000En cargos:3404207 0
+[13-Feb-2018 20:49:08 UTC] Factura:724990000En cargos:3467985 0
+[13-Feb-2018 20:49:08 UTC] Factura:73516000En cargos:3497421 0
+[13-Feb-2018 20:49:08 UTC] Factura:66571000En cargos:3521706 0
+[13-Feb-2018 20:49:08 UTC] Factura:91930001En cargos:3626466 0
+[13-Feb-2018 20:49:08 UTC] Factura:110895000En cargos:3656466 0
+[13-Feb-2018 20:49:08 UTC] Factura:10919000En cargos:3678848 0
+[13-Feb-2018 20:52:48 UTC] 44
+[13-Feb-2018 20:52:48 UTC] Factura:56098En cargos:1780921 0
+[13-Feb-2018 20:52:48 UTC] Factura:50451En cargos:6548741 0
+[13-Feb-2018 20:52:48 UTC] Factura:50460En cargos:11316561 0
+[13-Feb-2018 20:52:48 UTC] Factura:50485En cargos:14541851 0
+[13-Feb-2018 20:52:48 UTC] Factura:50200En cargos:19145529 0
+[13-Feb-2018 20:52:48 UTC] Factura:51362En cargos:23860139 0
+[13-Feb-2018 20:52:56 UTC] 4518
+[13-Feb-2018 20:52:56 UTC] Factura:402013En cargos:82176 0
+[13-Feb-2018 20:52:56 UTC] Factura:592231En cargos:103674 0
+[13-Feb-2018 20:52:56 UTC] Factura:588343En cargos:218330 0
+[13-Feb-2018 20:52:56 UTC] Factura:650284En cargos:273562 0
+[13-Feb-2018 20:52:56 UTC] Factura:1168050En cargos:368599 0
+[13-Feb-2018 20:52:56 UTC] Factura:676837En cargos:459807 0
+[13-Feb-2018 20:52:56 UTC] Factura:694325En cargos:505055 0
+[13-Feb-2018 20:52:56 UTC] Factura:719005En cargos:550298 0
+[13-Feb-2018 20:52:56 UTC] Factura:752794En cargos:641054 0
+[13-Feb-2018 20:52:56 UTC] Factura:759083En cargos:749918 0
+[13-Feb-2018 20:52:56 UTC] Factura:767899En cargos:780237 0
+[13-Feb-2018 20:52:56 UTC] Factura:801469En cargos:870831 0
+[13-Feb-2018 20:52:56 UTC] Factura:808519En cargos:957111 0
+[13-Feb-2018 20:52:56 UTC] Factura:903109En cargos:1064579 0
+[13-Feb-2018 20:52:56 UTC] Factura:917052En cargos:1140654 0
+[13-Feb-2018 20:52:56 UTC] Factura:931164En cargos:1203304 0
+[13-Feb-2018 20:52:56 UTC] Factura:942132En cargos:1236211 0
+[13-Feb-2018 20:52:56 UTC] Factura:954881En cargos:1282841 0
+[13-Feb-2018 20:52:56 UTC] Factura:968973En cargos:1385427 0
+[13-Feb-2018 20:52:56 UTC] Factura:969008En cargos:1483350 0
+[13-Feb-2018 20:52:56 UTC] Factura:963963En cargos:1534643 0
+[13-Feb-2018 20:52:56 UTC] Factura:9624700En cargos:1627903 0
+[13-Feb-2018 20:52:56 UTC] Factura:969998En cargos:1672255 0
+[13-Feb-2018 20:52:56 UTC] Factura:969996En cargos:1716607 0
+[13-Feb-2018 20:52:56 UTC] Factura:9700000En cargos:1785599 0
+[13-Feb-2018 20:52:56 UTC] Factura:9841500En cargos:1811331 0
+[13-Feb-2018 20:52:56 UTC] Factura:973843En cargos:1969027 0
+[13-Feb-2018 20:52:56 UTC] Factura:981033En cargos:2038859 0
+[13-Feb-2018 20:52:56 UTC] Factura:981122En cargos:2108691 0
+[13-Feb-2018 20:52:56 UTC] Factura:9917800En cargos:2134660 0
+[13-Feb-2018 20:52:56 UTC] Factura:24740En cargos:2195284 0
+[13-Feb-2018 20:52:56 UTC] Factura:17906En cargos:2245274 0
+[13-Feb-2018 20:52:56 UTC] Factura:52284000En cargos:2292864 0
+[13-Feb-2018 20:52:56 UTC] Factura:4384000En cargos:2340454 0
+[13-Feb-2018 20:52:56 UTC] Factura:3984800En cargos:2407080 0
+[13-Feb-2018 20:52:56 UTC] Factura:3265000En cargos:2459429 0
+[13-Feb-2018 20:52:56 UTC] Factura:4105800En cargos:2564127 0
+[13-Feb-2018 20:52:56 UTC] Factura:5249700En cargos:2588657 0
+[13-Feb-2018 20:52:56 UTC] Factura:5298200En cargos:2618093 0
+[13-Feb-2018 20:52:56 UTC] Factura:3140400En cargos:2662247 0
+[13-Feb-2018 20:52:56 UTC] Factura:3140200En cargos:2721119 0
+[13-Feb-2018 20:52:56 UTC] Factura:3140600En cargos:2799615 0
+[13-Feb-2018 20:52:56 UTC] Factura:3141000En cargos:2848675 0
+[13-Feb-2018 20:52:56 UTC] Factura:3140800En cargos:2912453 0
+[13-Feb-2018 20:52:56 UTC] Factura:3140700En cargos:2941889 0
+[13-Feb-2018 20:52:56 UTC] Factura:3997700En cargos:2990949 0
+[13-Feb-2018 20:52:56 UTC] Factura:6185200En cargos:3035103 0
+[13-Feb-2018 20:52:56 UTC] Factura:71484000En cargos:3135103 0
+[13-Feb-2018 20:52:56 UTC] Factura:71483000En cargos:3180993 0
+[13-Feb-2018 20:52:56 UTC] Factura:5088800En cargos:3280993 0
+[13-Feb-2018 20:52:56 UTC] Factura:3094200En cargos:3374207 0
+[13-Feb-2018 20:52:56 UTC] Factura:56142000En cargos:3404207 0
+[13-Feb-2018 20:52:56 UTC] Factura:724990000En cargos:3467985 0
+[13-Feb-2018 20:52:56 UTC] Factura:73516000En cargos:3497421 0
+[13-Feb-2018 20:52:56 UTC] Factura:66571000En cargos:3521706 0
+[13-Feb-2018 20:52:56 UTC] Factura:91930001En cargos:3626466 0
+[13-Feb-2018 20:52:56 UTC] Factura:110895000En cargos:3656466 0
+[13-Feb-2018 20:52:56 UTC] Factura:10919000En cargos:3678848 0
+[13-Feb-2018 20:54:49 UTC] 1515
+[13-Feb-2018 20:54:49 UTC] Factura:20041610En cargos:9415 0
+[13-Feb-2018 20:54:49 UTC] Factura:200291010En cargos:71240 0
+[13-Feb-2018 20:54:49 UTC] Factura:20041120En cargos:1097115 0
+[13-Feb-2018 20:54:49 UTC] Factura:300594901En cargos:2510026 0
+[13-Feb-2018 20:54:49 UTC] Factura:20415002En cargos:3060268 0
+[13-Feb-2018 20:54:49 UTC] Factura:200220002En cargos:3871642 0
+[13-Feb-2018 20:54:49 UTC] Factura:200196301En cargos:4790266 0
+[13-Feb-2018 20:54:49 UTC] Factura:200416101En cargos:6135931 0
+[13-Feb-2018 20:54:49 UTC] Factura:200210011En cargos:7308716 0
+[13-Feb-2018 20:54:49 UTC] Factura:20011301En cargos:8074997 0
+[13-Feb-2018 20:55:38 UTC] 68
+[13-Feb-2018 20:55:38 UTC] Factura:2004162En cargos:7873709 0
+[13-Feb-2018 20:57:01 UTC] 10877
+[13-Feb-2018 20:57:01 UTC] Factura:95129En cargos:-2647 0
+[13-Feb-2018 20:57:01 UTC] Factura:335078001En cargos:33784 0
+[13-Feb-2018 20:57:01 UTC] Factura:90011101En cargos:73189 0
+[13-Feb-2018 20:57:01 UTC] Factura:900156001En cargos:108830 0
+[13-Feb-2018 20:57:01 UTC] Factura:95981En cargos:26737 0
+[13-Feb-2018 20:57:01 UTC] Factura:96020En cargos:-83781 0
+[13-Feb-2018 20:57:01 UTC] Factura:900148010En cargos:-45380 0
+[13-Feb-2018 20:57:01 UTC] Factura:300311590En cargos:-20783 0
+[13-Feb-2018 20:57:01 UTC] Factura:900117010En cargos:17618 0
+[13-Feb-2018 20:57:01 UTC] Factura:30031296En cargos:51013 0
+[13-Feb-2018 20:57:01 UTC] Factura:900110901En cargos:91422 0
+[13-Feb-2018 20:57:01 UTC] Factura:303141210En cargos:140211 0
+[13-Feb-2018 20:57:01 UTC] Factura:900118101En cargos:179825 0
+[13-Feb-2018 20:57:01 UTC] Factura:300315050En cargos:206980 0
+[13-Feb-2018 20:57:47 UTC] 21
+[13-Feb-2018 20:57:47 UTC] Factura:300311230En cargos:1502578 0
+[13-Feb-2018 20:57:47 UTC] Factura:300312201En cargos:3103838 0
+[13-Feb-2018 20:57:47 UTC] Factura:300313401En cargos:4773989 0
+[13-Feb-2018 20:57:47 UTC] Factura:300314370En cargos:6320710 0
+[13-Feb-2018 20:57:53 UTC] 1401
+[13-Feb-2018 20:57:56 UTC] 7549
+[13-Feb-2018 20:57:56 UTC] Factura:200484100En cargos:55198 0
+[13-Feb-2018 20:57:56 UTC] Factura:900113801En cargos:73689 0
+[13-Feb-2018 20:57:56 UTC] Factura:900120701En cargos:100794 0
+[13-Feb-2018 20:57:56 UTC] Factura:300194002En cargos:209214 0
+[13-Feb-2018 20:57:56 UTC] Factura:300217380En cargos:287964 0
+[13-Feb-2018 20:58:00 UTC] 999107
+[13-Feb-2018 20:58:03 UTC] 7837
+[13-Feb-2018 20:58:03 UTC] Factura:3174310En cargos:20484 0
+[13-Feb-2018 20:58:17 UTC] 7292
+[13-Feb-2018 20:58:19 UTC] 13780
+[13-Feb-2018 20:58:19 UTC] Factura:33391700En cargos:84129 0
+[13-Feb-2018 20:58:19 UTC] Factura:20021101En cargos:161406 0
+[13-Feb-2018 20:58:19 UTC] Factura:200292010En cargos:212740 0
+[14-Feb-2018 02:36:30 UTC] 203
+[14-Feb-2018 02:36:40 UTC] 10722
+[14-Feb-2018 02:36:40 UTC] Factura:331088110En cargos:101983 0
+[14-Feb-2018 22:05:01 UTC] 12978
+[14-Feb-2018 22:05:01 UTC] Factura:900113020En cargos:76725 0
+[14-Feb-2018 22:05:01 UTC] Factura:900120201En cargos:155058 0
+[14-Feb-2018 22:06:12 UTC] 13966
+[14-Feb-2018 22:06:12 UTC] Factura:0001En cargos:95000 55000
+[14-Feb-2018 22:06:12 UTC] Factura:60154En cargos:150000 123000
+[14-Feb-2018 22:06:12 UTC] Factura:65487En cargos:180000 221745
+[14-Feb-2018 22:06:12 UTC] Factura:300314171En cargos:1676196 221745
+[14-Feb-2018 22:15:51 UTC] 69
+[14-Feb-2018 22:15:51 UTC] Factura:300210840En cargos:321528 0
+[14-Feb-2018 22:15:51 UTC] Factura:300216080En cargos:761171 0
+[14-Feb-2018 22:15:51 UTC] Factura:30021679En cargos:1224938 0
+[14-Feb-2018 22:15:51 UTC] Factura:30021680En cargos:1289990 0
+[14-Feb-2018 22:15:51 UTC] Factura:30021742En cargos:1727186 0
+[08-Mar-2018 04:47:49 UTC] 13893
+[08-Mar-2018 04:47:49 UTC] Factura:300188601En cargos:2042326 0
+[08-Mar-2018 04:47:52 UTC] 31
+[08-Mar-2018 04:47:52 UTC] Factura:300188901En cargos:610214 0
+[08-Mar-2018 04:47:52 UTC] Factura:30019801En cargos:1277006 0
+[08-Mar-2018 04:47:52 UTC] Factura:300110000En cargos:1744809 0
+[08-Mar-2018 04:47:55 UTC] 1141
+[08-Mar-2018 04:47:57 UTC] 1762
+[08-Mar-2018 04:47:57 UTC] Factura:330195000En cargos:197950 0
+[08-Mar-2018 04:47:57 UTC] Factura:20024501En cargos:220029 0
+[08-Mar-2018 04:47:57 UTC] Factura:20049701En cargos:634014 0
+[08-Mar-2018 04:47:58 UTC] 70
+[08-Mar-2018 04:47:58 UTC] Factura:300198370En cargos:556224 0
+[08-Mar-2018 04:47:58 UTC] Factura:300196701En cargos:1324944 0
+[08-Mar-2018 04:47:58 UTC] Factura:300110001En cargos:2372959 0
+[08-Mar-2018 04:47:58 UTC] Factura:30013401En cargos:3526696 0
+[08-Mar-2018 04:47:58 UTC] Factura:30001840En cargos:4519746 0
+[08-Mar-2018 04:47:58 UTC] Factura:300110102En cargos:5277683 0
+[08-Mar-2018 04:47:58 UTC] Factura:300134002En cargos:6236855 0
+[08-Mar-2018 04:47:58 UTC] Factura:300184010En cargos:7093581 0
+[08-Mar-2018 04:47:58 UTC] Factura:300113101En cargos:8093783 0
+[08-Mar-2018 04:53:20 UTC] PHP Notice:  Undefined index: idcliente in /home/son1cman/public_html/pagos/facturas/fetch.php on line 7
+[08-Mar-2018 04:53:20 UTC] PHP Notice:  Undefined index: draw in /home/son1cman/public_html/pagos/facturas/fetch.php on line 68
+[08-Mar-2018 04:53:46 UTC] 13714
+[08-Mar-2018 04:53:46 UTC] Factura:200186401En cargos:1239950 0
+[08-Mar-2018 04:53:46 UTC] Factura:20019220En cargos:3670450 0
+[08-Mar-2018 04:53:46 UTC] Factura:200196101En cargos:4885700 0
+[08-Mar-2018 04:55:03 UTC] PHP Notice:  Undefined index: idcliente in /home/son1cman/public_html/pagos/facturas/fetch.php on line 7
+[08-Mar-2018 04:55:03 UTC] PHP Notice:  Undefined index: draw in /home/son1cman/public_html/pagos/facturas/fetch.php on line 68
+[08-Mar-2018 04:55:28 UTC] 11405
+[08-Mar-2018 04:55:30 UTC] 31
+[08-Mar-2018 04:55:30 UTC] Factura:300188901En cargos:610214 0
+[08-Mar-2018 04:55:30 UTC] Factura:30019801En cargos:1277006 0
+[08-Mar-2018 04:55:30 UTC] Factura:300110000En cargos:1744809 0
