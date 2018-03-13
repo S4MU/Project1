@@ -26,7 +26,7 @@
        </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://tomzacr.com/" target='_blank'><i class='glyphicon glyphicon-envelope'></i> Soporte</a></li>
-		<li><a href="index.php"><i class='glyphicon glyphicon-off'></i> Salir</a></li>
+		<li> <a href="index.php"><i class='glyphicon glyphicon-off'> </i> Salir</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
