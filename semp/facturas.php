@@ -271,8 +271,9 @@
 </html>
 
 <?php
-}
-else {
-		header("Location: loginprincipal.php ");
-}
+	}
+	else
+	{
+			header("Location: index.php ");
+	}
  ?>
