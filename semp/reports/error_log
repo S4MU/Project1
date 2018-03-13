@@ -1,0 +1,16 @@
+[20-Jan-2018 17:49:39 UTC] PHP Warning:  include(vendor/autoload.php): failed to open stream: No such file or directory in /home/son1cman/public_html/semp/reports/index.php on line 13
+[20-Jan-2018 17:49:39 UTC] PHP Warning:  include(): Failed opening 'vendor/autoload.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/son1cman/public_html/semp/reports/index.php on line 13
+[20-Jan-2018 17:49:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Cannot find config file' in /home/son1cman/public_html/semp/reports/lib/PhpReports/PhpReports.php:17
+Stack trace:
+#0 /home/son1cman/public_html/semp/reports/lib/PhpReports/PhpReports.php(682): PhpReports::init()
+#1 /home/son1cman/public_html/semp/reports/index.php(16): require('/home/son1cman/...')
+#2 {main}
+  thrown in /home/son1cman/public_html/semp/reports/lib/PhpReports/PhpReports.php on line 17
+[20-Jan-2018 17:50:01 UTC] PHP Warning:  include(vendor/autoload.php): failed to open stream: No such file or directory in /home/son1cman/public_html/semp/reports/index.php on line 13
+[20-Jan-2018 17:50:01 UTC] PHP Warning:  include(): Failed opening 'vendor/autoload.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/son1cman/public_html/semp/reports/index.php on line 13
+[20-Jan-2018 17:50:01 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Cannot find config file' in /home/son1cman/public_html/semp/reports/lib/PhpReports/PhpReports.php:17
+Stack trace:
+#0 /home/son1cman/public_html/semp/reports/lib/PhpReports/PhpReports.php(682): PhpReports::init()
+#1 /home/son1cman/public_html/semp/reports/index.php(16): require('/home/son1cman/...')
+#2 {main}
+  thrown in /home/son1cman/public_html/semp/reports/lib/PhpReports/PhpReports.php on line 17
