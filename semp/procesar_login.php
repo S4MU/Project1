@@ -1,7 +1,8 @@
 <?php
 	session_start();
 	/*Dentro de config esta la conexion*/
-	Include("config/conexion2.php");
+	require_once ("config/db3.php");//Contiene las variables de configuracion para conectar a la base de datos
+	require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
 
 	/*Valido que se haya presionado el submit en el formulario*/
 	if(isset($_POST['submit']))
@@ -20,15 +21,15 @@
 		else
 		{
 			/*Query de la consulta para el login*/
-			$query="Select * FROM usuario where usuario='$nombre'" ;
-			$stmt = $conexion->prepare($query);
-			$stmt->execute();
+			$sql="Select * FROM usuario where usuario= '$nombre'" ;
+			$query= mysqli_query($con, $sql);
+			$rowcount=mysqli_num_rows($query);
 
 			/*Si la consulta trajo los datos, paso a la siguiente pagina*/
-			if($stmt->rowCount()>0)
+			if($rowcount>0)
 			{
 				/*Se genera la variable de sesion*/
-				$dataUsuario = $stmt->fetch(PDO::FETCH_ASSOC);
+				$dataUsuario = $query->fetch_array(MYSQLI_ASSOC);
 
 				/*una vez almacenados los resultados de la consulta, pregunto mediante password_verify si las contraseñas son identicas*/
 				if(password_verify($_POST['contrasena'], $dataUsuario['contrasena']))
@@ -69,7 +70,7 @@
 							header("Location: facturas.php ");
 							break;
 						default:
-							header("Location: loginprincipal.php ");
+							header("Location: index.php ");
 							break;
 					}
 				}
@@ -87,6 +88,6 @@
 	}
 	else
 	{
-		header("location: loginprincipal.php");
+		header("location: index.php");
 	}
 ?>

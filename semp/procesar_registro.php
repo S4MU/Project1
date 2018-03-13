@@ -1,6 +1,7 @@
 <?php
 /*Dentro de config esta la conexion*/
-include('config/conexion2.php');
+require_once ("config/db3.php");//Contiene las variables de configuracion para conectar a la base de datos
+require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
 /*Si presiono el submit inicia el proceso de registro*/
 if (isset($_POST['registrarse']))
 {
@@ -46,10 +47,10 @@ if (isset($_POST['registrarse']))
 	 else
 	 {
 		/*Query para averiguar si nombre de usuario ya existe, si existe lanza mensaje de error*/
-		$queryuser="SELECT * FROM usuario where usuario='$usuario'";
-		$stmtuser = $conexion->query($queryuser);
-		$stmtuser->execute();
-		if($stmtuser->rowCount()>0)
+		$sql1="SELECT * FROM usuario where usuario='$usuario'";
+		$query1= mysqli_query($con, $sql1);
+		$rowcount1=mysqli_num_rows($query1);
+		if($rowcount1 > 0)
 		{
 			 echo "<script> alert('¡El nombre de usuario ya está en uso, ingrese uno nuevo!');window.location= 'registro.php' </script>";
 			 return;
@@ -74,10 +75,10 @@ if (isset($_POST['registrarse']))
 			try
 			{
 				/*Query para averiguar si el correo ya existe, si existe lanza mensaje de error*/
-				$querycorreo="SELECT * FROM usuario where email='$correo_cifrado'";
-				$stmtcorreo = $conexion->query($querycorreo);
-				$stmtcorreo->execute();
-				if ($stmtcorreo->rowCount()>0)
+				$sql2="SELECT * FROM usuario where email='$correo_cifrado'";
+				$query2= mysqli_query($con, $sql2);
+				$rowcount2=mysqli_num_rows($query2);
+				if ($rowcount2 > 0)
 				{
 					echo "<script> alert('¡El correo electronico ya está en uso, ingrese uno nuevo!');window.location= 'registro.php' </script>";
 					return;
@@ -85,25 +86,18 @@ if (isset($_POST['registrarse']))
 				else
 				{
 				/*Realizo el insert de los datos del usuario en la BD*/
-
-				$query="INSERT INTO usuario (usuario, contrasena, privilegio, nombre , apellidos , email)
-						VALUES (:usuario, :contrasena, :privilegio, :nombre, :apellidos, :email)";
-				$nuevoUsuario = $conexion -> prepare($query);
-				$nuevoUsuario -> bindParam(':usuario'   , $usuario, PDO::PARAM_STR);
-				$nuevoUsuario -> bindParam(':contrasena', $contrasena_cifrada, PDO::PARAM_STR);
-				$nuevoUsuario -> bindParam(':privilegio', $privilegio, PDO::PARAM_STR);
-				$nuevoUsuario -> bindParam(':nombre'   , $nombre_cifrado, PDO::PARAM_STR);
-				$nuevoUsuario -> bindParam(':apellidos', $apellido_cifrado, PDO::PARAM_STR);
-				$nuevoUsuario -> bindParam(':email', $correo_cifrado, PDO::PARAM_STR);
-				$stmt1= $nuevoUsuario -> execute();
+				$sql3=$con->prepare("INSERT INTO usuario (usuario, contrasena, privilegio, nombre , apellidos , email) VALUES (?,?,?,?,?,?)");
+				/*La 's' indican la cantidad de variables que le voy a pasar al insert*/
+				$sql3->bind_param('ssssss',$usuario, $contrasena_cifrada, $privilegio, $nombre_cifrado, $apellido_cifrado, $correo_cifrado);
+				$sql3->execute();
 				}
 			}
-			catch (PDOException $error)
+			catch (mysqli_sql_exception $error)
 			{
 				echo "<script> alert('¡Ha ocurrido un error, intentelo mas tarde!');window.location= 'registro.php' </script>";
 				return;
 			}
-			if($stmt1)
+			if($sql3)
 			{
 				echo "<script> alert('¡Se ingreso correctamente al usuario!');window.location= 'index.php' </script>";
 			}
@@ -111,5 +105,6 @@ if (isset($_POST['registrarse']))
 	 }
 }
 else {
-	header("location: loginprincipal.php");
+	header("location: index.php");
 }
+?>
