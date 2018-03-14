@@ -1,9 +1,9 @@
 <?php
 	session_start();
 	/*Dentro de config esta la conexion*/
-	require_once ("config/db3.php");//Contiene las variables de configuracion para conectar a la base de datos
+	require_once ("config/db2.php");//Contiene las variables de configuracion para conectar a la base de datos
 	require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
-
+	
 	/*Valido que se haya presionado el submit en el formulario*/
 	if(isset($_POST['submit']))
 	{
