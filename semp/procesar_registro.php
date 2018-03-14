@@ -1,6 +1,6 @@
 <?php
 /*Dentro de config esta la conexion*/
-require_once ("config/db3.php");//Contiene las variables de configuracion para conectar a la base de datos
+require_once ("config/db2.php");//Contiene las variables de configuracion para conectar a la base de datos
 require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
 /*Si presiono el submit inicia el proceso de registro*/
 if (isset($_POST['registrarse']))
